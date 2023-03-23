@@ -1,0 +1,75 @@
+key,en,ru,bel
+how_it_works,How it works, Как это раотает, Як гэта працуе
+team,Team,Команда,Каманда
+contacts,Contacts,Контакты,Кантакты
+en,EN,EN,EN
+ru,RU,RU,RU
+bel,BLR,BLR,BLR
+
+
+
+
+services,Services,Услуги,Паслугі
+services_description,"The main priority for our team is to provide quality solutions for the implementation of your ideas. Check out the list of services provided by Storks Solutions team.","Основным приоритетом для нашей команды является предоставление качественных решений для реализации ваших идей. Ознакомьтесь со списком услуг, предоставляемых командой Storks Solutions.","Галоўным прыярытэтам нашай каманды з'яўляецца прадастаўленне якасных рашэнняў для рэалізацыі вашых ідэй.Азнаёмцеся са спісам паслуг, якія прадстаўляе каманда Storks Solutions."
+web_development_title,"Web development","Веб разработка","Вэб-распрацоўка"
+web_development_desc,"Focus on building a quality solution that responds to business needs. We use a lean approach so we can quickly test, learn, and make changes in the development phase","Сосредоточьтесь на создании качественного решения, отвечающего потребностям бизнеса. Мы используем бережливый подход, поэтому мы можем быстро тестировать, учиться и вносить изменения на этапе разработки.","Засяродзьцеся на стварэнні якаснага рашэння, якое адпавядае патрэбам бізнесу. Мы выкарыстоўваем эканомны падыход, каб мы маглі хутка тэставаць, вучыцца і ўносіць змены на этапе распрацоўкі"
+mobile_development_title,"Mobile app development","Разработка мобильных приложений","Распрацоўка мабільных прыкладанняў"
+mobile_development_desc,"By putting together tech expertise and creativity, our programmers can craft a custom mobile application that will help your business develop.","Объединив технические знания и творческий подход, наши программисты могут создать индивидуальное мобильное приложение, которое поможет развитию вашего бизнеса.","Аб'яднаўшы тэхнічныя веды і творчы падыход, нашы праграмісты могуць стварыць індывідуальнае мабільнае прыкладанне, якое дапаможа развіццю Вашага бізнесу."
+design_title,"UI/UX Design","UI/UX дизайн","UI / UX дызайн"
+design_desc,"Focus on the usability of your digital product and create amazing user interfaces for different platforms and devices that will help you fulfill your strategy and goals.","Сосредоточьтесь на удобстве использования вашего цифрового продукта и создайте удивительные пользовательские интерфейсы для различных платформ и устройств, которые помогут вам реализовать вашу стратегию и цели.","Засяродзьцеся на зручнасці выкарыстання вашага лічбавага прадукту і стварыце дзіўныя карыстацкія інтэрфейсы для розных платформаў і прылад, якія дапамогуць вам рэалізаваць вашу стратэгію і мэты."
+quality_assurance_title,"Quality assurance","Обеспечение качества","Забеспячэнне якасці"
+quality_assurance_desc,"Our experienced QA specialists will ensure that your software solution is bug-free and performs perfectly before it gets to real users.","Наши опытные специалисты по контролю качества обеспечат отсутствие ошибок и безупречную работу вашего программного решения до того, как оно попадет к реальным пользователям.","Нашы вопытныя спецыялісты па кантролі якасці забяспечаць адсутнасць памылак і бездакорную працу вашага праграмнага рашэння да таго, як яно патрапіць да рэальных карыстальнікам."
+api_integration_title,"API Integration","Интеграция API","Інтэграцыя API"
+api_integration_desc,"By integrating APIs of different products, we can make separate pieces of your IT infrastructure work well together without compromising on security.","Интегрируя API различных продуктов, мы можем заставить отдельные части вашей ИТ-инфраструктуры работать вместе без ущерба для безопасности.","Інтэгруючы API розных прадуктаў, мы можам прымусіць асобныя часткі вашай ад-інфраструктуры працаваць разам без шкоды для бяспекі."
+product_scaling_title,"Product Scaling","Масштабирование продукта","Маштабаванне прадукту"
+product_scaling_desc,"Improve your product by refactoring out of date code, adding new features, and adjusting the product to present expectations.","Улучшайте свой продукт путем рефакторинга устаревшего кода, добавления новых функций и приведения продукта в соответствие с нынешними ожиданиями.","Паляпшае свой прадукт шляхам рэфактарынг састарэлага кода, дадання новых функцый і прывядзення прадукту ў адпаведнасць з цяперашнімі чаканнямі."
+cooperation_models_title,"Cooperation models","Модели сотрудничества","Мадэлі супрацоўніцтва"
+cooperation_models_desc,"The peculiarity of the Storks Solutions team is flexibility and fast speed in finding solutions. Based on the required results, the team can offer several options for cooperation.","Особенностью команды Storks Solutions является гибкость и быстрая скорость поиска решений. Исходя из требуемых результатов, команда может предложить несколько вариантов сотрудничества.","Асаблівасцю каманды Storks Solutions з'яўляецца гнуткасць і хуткая хуткасць пошуку рашэнняў. Зыходзячы з патрэбных вынікаў, каманда можа прапанаваць некалькі варыянтаў супрацоўніцтва."
+staff_model_title,"Staff Augmentation Model","Модель расширения штата сотрудников","Мадэль пашырэння штата супрацоўнікаў"
+staff_model_desc,"Expert software engineers join your existing team, working and communicating remotely, until project completion. You can bring on as many professionals as you need to achieve the right team size for your development efforts.","Эксперты-программисты присоединяются к вашей существующей команде, работая и общаясь удаленно до завершения проекта. Вы можете привлекать столько специалистов, сколько вам необходимо, чтобы достичь оптимального размера команды для вашей разработки.","Эксперты-праграмісты далучаюцца да вашай існуючай камандзе, працуючы і размаўляючы выдалена да завяршэння праекта. Вы можаце прыцягваць столькі спецыялістаў, колькі вам неабходна, каб дасягнуць аптымальнага памеру каманды для вашай распрацоўкі."
+dedicated_model_title,"Dedicated Team Model","Модель специализированной команды","Мадэль спецыялізаванай каманды"
+dedicated_model_desc,"The dedicated team model means you will work with an outside software development team. This option provides a management structure with hands-on supervision of the workflow and tasks.","Модель специализированной команды означает, что вы будете работать с внешней командой разработчиков программного обеспечения. Этот вариант предусматривает структуру управления с практическим контролем рабочего процесса и задач.","Мадэль спецыялізаванай каманды азначае, што вы будзеце працаваць з знешняй камандай распрацоўшчыкаў праграмнага забеспячэння. Гэты варыянт прадугледжвае структуру кіравання з практычным кантролем працоўнага працэсу і задач."
+project_model_title,"Project Based Model","Проектно-ориентированная модель","Праектна-арыентаваная мадэль"
+project_model_desc,"Our team will take care of the entire development process, from defining requirements to fully implementing your idea, setting deadlines, and quality testing. The company brings together the whole team, including the project manager.","Наша команда возьмет на себя весь процесс разработки, от определения требований до полной реализации вашей идеи, установления сроков и тестирования качества. Компания объединяет всю команду, включая менеджера проекта.","Наша каманда возьме на сябе ўвесь працэс распрацоўкі, ад вызначэння патрабаванняў да поўнай рэалізацыі вашай ідэі, ўстанаўлення тэрмінаў і тэставання якасці. Кампанія аб'ядноўвае ўсю каманду, уключаючы мэнэджэра праекта."
+who_we_are_title, "Who we are?","Кто мы?","Хто мы?"
+professional_team_title,"PROFESSIONAL TEAM","КОМАНДА ПРОФЕССИОНАЛОВ",	"КАМАНДА ПРАФЕСІЯНАЛАЎ"
+technology_stack_title,"Technology stack","Стек технологий","Стэк тэхналогій"
+technology_stack_desc,"Our top-class software engineers harness all present-day programming languages and frameworks and cater to all requests related to software development projects of any complexity and technology stack.","Наши высококлассные инженеры-программисты используют все современные языки программирования и фреймворки и удовлетворяют все запросы, связанные с проектами по разработке программного обеспечения любой сложности и технологического стека.","Нашы высакакласныя інжынеры-праграмісты выкарыстоўваюць усе сучасныя мовы праграмавання і фреймворка і задавальняюць усе запыты, звязаныя з праектамі па распрацоўцы праграмнага забеспячэння любой складанасці і тэхналагічнага стэка."
+frond_end,"FRONT END","FRONT END","FRONT END"
+react,"React","React","React"
+angular,"Angular","Angular","Angular"
+javascript,"Javascript","Javascript","Javascript"
+back_end,"BACK END","BACK END","BACK END"
+java,"JAVA","JAVA","JAVA"
+net,".NET",".NET",".NET"
+nodejs,"NODE.JS","NODE.JS","NODE.JS"
+php,"PHP","PHP","PHP"
+mobile,"MOBILE","MOBILE","MOBILE"
+ios,"IOS","IOS","IOS"
+android,"ANDROID","ANDROID","ANDROID"
+flutter,"FLUTTER","FLUTTER","FLUTTER"
+react_native,"REACT NATIVE","REACT NATIVE","REACT NATIVE"
+need_solution_title,"Need a technological solution?","Вам нужно технологическое решение?","Вам трэба тэхналагічнае рашэнне?"
+contact_us_title,"Contact us!","Свяжитесь с нами!","Звяжыцеся з намі!"
+name_field,"Name","Имя","Імя"
+company_field,"Company","Компания","Кампанія"
+corporate_email_field,"Corporate email","Корпоративный e-mail","Карпаратыўны e-mail"
+subject_field,"Subject","Тема","Тэма"
+additional_field,"Additional information","Дополнительная информация","Дадатковая інфармацыя"
+upload_file_field,"Upload File","Загрузить файл","Загрузіць файл"
+send_desc,"Please be informed that when you click the 'Send' button Stork Solutions  will process your personal data.","Пожалуйста, имейте в виду, что когда вы нажмете кнопку 'Отправить', Stork Solutions обработает ваши персональные данные.","Калі ласка, майце на ўвазе, што калі вы націснеце кнопку 'Адправіць', Stork Solutions апрацуе вашыя персанальныя дадзеныя."
+send_button,"Send","Отправить","Aдаслаць"
+
+
+get_started,"Get started","Начать","Пачаць"
+digital_solutions,"Digital solutions","Цифровые решения","Лічбавыя рашэнні"
+fast,"fast","быстро","хутка"
+and,"and","и","i"
+easy,"easy","легко","лёгкa"
+welcome_desc,"We will conduct business consulting in a short time and offer the best solutions","Проведем бизнес-консалтинг в короткие сроки и предложить лучшие решения","Правядзем бізнес-кансультацыі у кароткія тэрміны і прапанаваць лепшыя рашэнні"
+average_experience,"Average experience","Средний опыт","Сярэдні стаж"
+team_members,"Team-members","Члены команды","Члены каманды"
+embrace_technologies,"Embrace technologies","Охвачено технологий","Aхоплена тэхналогій"
+projects_completed,"Projects completed","Завершенных проектов","Праекты завершаны"
+footer_rules,"© 2023 Storks Solutions. All Rights Reserved.","© 2023 Storks Solutions. Все права защищены.","© 2023 Storks Solutions. Усе правы ахоўваюцца."
+footer_address,"Stefana Okrzei 1A/10P, 03-715 Warsaw, Poland","Stefana Okrzei 1A/10P, 03-715 Варшава, Польша","Stefana Okrzei 1A/10P, 03-715 Варшава, Польшча"
