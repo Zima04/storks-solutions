@@ -1,0 +1,76 @@
+@import '../../../styles/colors';
+
+.services-container {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    color: $grey;
+    padding-bottom: 50px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: $grey;
+    max-width: 600px;
+    min-width: 400px;
+    padding-bottom: 50px;
+  }
+
+  &__card {
+
+    display: flex;
+    flex-direction: column;
+    padding: 50px 40px;
+    transition: all 0.1s ease-out;
+
+
+    .value {
+      display: flex;
+      align-items: center;
+      padding-bottom: 15px;
+
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 25px;
+      color: $grey;
+
+      img {
+        padding-right: 15px;
+      }
+
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 23px;
+      color: $grey;
+    }
+
+    &:nth-of-type(n+2) {
+      border-left: 1px solid $grey;
+    }
+
+    &:hover {
+      background-color: rgba(46, 46, 46, 0.05);
+      outline: 3px solid $red;
+      cursor: pointer;
+      position: relative;
+      z-index: 99;
+    }
+  }
+
+  .row:nth-child(1) {
+    .services-container__card {
+      border-bottom: 1px solid $grey;
+    }
+  }
+}
+

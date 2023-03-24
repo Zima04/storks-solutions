@@ -1,0 +1,70 @@
+@import '../../../styles/colors';
+
+.technology-container {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    color: $grey;
+    padding-bottom: 50px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: $grey;
+    max-width: 600px;
+    min-width: 400px;
+  }
+
+  &__section {
+
+    .stack-name {
+      display: block;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 29px;
+      color: $red;
+      padding: 60px 0 20px;
+    }
+
+    .stack__card {
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      border-bottom: 1px solid $grey;
+      transition: all 0.3s ease-out;
+
+
+      img{
+        width: 50px;
+        height: 50px;
+      }
+
+      &:hover{
+        background-color: rgba(46, 46, 46, 0.05);
+        border-bottom: 1px solid $red;
+        cursor: pointer;
+        position: relative;
+        z-index: 99;
+      }
+
+
+      .technology-name {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        text-transform: uppercase;
+        color: #333333;
+        padding-left: 24px;
+      }
+    }
+
+
+  }
+}

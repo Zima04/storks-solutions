@@ -1,0 +1,80 @@
+@import 'src/styles/colors';
+
+.contact-form-container{
+  padding: 50px 0 100px;
+  display: flex;
+  flex-direction: column;
+  background-color: $grey;
+
+  &__header {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 46px;
+    color: $white;
+    padding-bottom: 20px;
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    color: $white;
+    padding-bottom: 50px;
+  }
+
+  .upload-container{
+    display: flex;
+    padding: 20px 0 40px;
+
+    &__button{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid $red;
+      border-radius: 10px;
+      padding: 15px 30px;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      color: #C63031;
+      transition: all 0.3s ease-out;
+
+      &:hover{
+        background-color: #C63031;
+        color: $white;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .send-label{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A2A6AD;
+    max-width: 400px;
+  }
+
+  .send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    background: $red;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    transition: all 0.3s ease-out;
+
+    &:hover{
+      background-color: $red;
+      color: $white;
+      opacity: 0.7;
+      cursor: pointer;
+    }
+  }
+}
+

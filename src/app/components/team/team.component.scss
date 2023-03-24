@@ -1,0 +1,98 @@
+@import 'src/styles/colors';
+
+.team-container {
+  background-image: url("/assets/team.jpg");
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  background-position: 0 0;
+
+  animation: animatedBackground 120s linear infinite;
+
+  @keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -10000px 0; }
+  }
+  @-moz-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -10000px 0; }
+  }
+  @-webkit-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -10000px 0; }
+  }
+  @-ms-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -10000px 0; }
+  }
+  @-o-keyframes animatedBackground {
+    0% { background-position: 0 0; }
+    100% { background-position: -10000px 0; }
+  }
+
+  .shadow-block {
+    height: 100%;
+    background-color: #FBFBFD;
+    opacity: 0.8;;
+    width: 50%;
+    position: absolute;
+  }
+
+  .content-container {
+    position: relative;
+    z-index: 99;
+
+    .header {
+      font-weight: 400;
+      font-size: 46px;
+      line-height: 58px;
+      text-transform: capitalize;
+      color: $red;
+      padding-bottom: 50px;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 48px;
+      text-transform: capitalize;
+      color: $grey;
+      padding-bottom: 50px;
+    }
+
+    .subtitle {
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 32px;
+      color: $grey;
+      padding-bottom: 20px;
+      max-width: 500px;
+    }
+
+    .team-button-container {
+      display: flex;
+      padding: 20px 0 40px;
+
+      .team-button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $red;
+        border-radius: 10px;
+        padding: 15px 30px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #C63031;
+        transition: all 0.3s ease-out;
+
+        &:hover {
+          background-color: #C63031;
+          color: $white;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+}

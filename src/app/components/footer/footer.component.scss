@@ -1,0 +1,33 @@
+@import 'src/styles/colors';
+
+.footer-container{
+  padding: 100px 0 50px;
+
+  .footer-row{
+    border-bottom: 1px solid $grey;
+  }
+
+  .country{
+    min-width: 80px;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+  }
+
+  .number{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+  }
+
+  .footer-link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+    padding-bottom: 25px;
+  }
+}

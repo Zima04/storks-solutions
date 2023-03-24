@@ -1,0 +1,47 @@
+@import 'src/styles/colors';
+
+.cooperation-container {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  background-color: $grey;
+
+  &__header {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    color: $white;
+    padding-bottom: 50px;
+  }
+
+  &__description {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: $white;
+    max-width: 600px;
+    min-width: 400px;
+    padding-bottom: 50px;
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: $white;
+
+    .header {
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 45px;
+      text-transform: capitalize;
+      padding-bottom: 50px;
+    }
+
+    .description {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+    }
+  }
+}
