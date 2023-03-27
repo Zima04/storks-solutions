@@ -1,0 +1,24 @@
+<div class="container-fluid p-0 m-0">
+  <header></header>
+  <div class="background">
+    <div class="container-xl py-4">
+      <p-timeline [value]="events" align="alternate" styleClass="customized-timeline">
+        <ng-template pTemplate="marker" let-event>
+            <span class="step-icon shadow-2">
+                <i [ngClass]="event.icon"></i>
+            </span>
+        </ng-template>
+        <ng-template pTemplate="content" let-event>
+          <div [attr.data-aos]="event?.isLeft ? 'fade-left' : 'fade-right'" data-aos-duration="3000">
+            <p-card [header]="event.status" [subheader]="event.title" >
+              <p-chip *ngIf="event.isSprintAction" label="Sprint action"></p-chip>
+              <p>{{event.description}}</p>
+            </p-card>
+          </div>
+        </ng-template>
+      </p-timeline>
+    </div>
+  </div>
+  <contacts></contacts>
+  <footer></footer>
+</div>

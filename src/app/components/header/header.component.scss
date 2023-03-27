@@ -1,17 +1,22 @@
 @import 'src/styles/colors';
 
 .header-container {
-  height: 70px;
+  height: 90px;
 
   .dropdown-menu{
     width: 100px !important;
   }
+
   .header-link {
     color: $grey;
     padding: 0 50px;
     font-size: 18px;
     line-height: 23px;
-    text-decoration: none;
+
+    &:hover{
+      cursor: pointer;
+      color: $red;
+    }
   }
 
 }

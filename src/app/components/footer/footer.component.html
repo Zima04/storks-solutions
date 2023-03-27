@@ -3,10 +3,12 @@
 
     <div class="d-flex row footer-row">
       <div class="col-4">
-        <img src="assets/logo.svg" alt="logo">
+        <a routerLink="/main">
+          <img src="assets/logo.svg" alt="logo">
+        </a>
       </div>
       <div class="col-4 d-flex flex-column p-2">
-          <span class="footer-link">
+          <span class="footer-link" routerLink="/contacts">
             {{'contact_us_title' | translate}}
           </span>
         <div>
@@ -35,18 +37,18 @@
         </div>
       </div>
       <div class="col-4 d-flex flex-column p-2">
-          <span class="footer-link">
+          <a class="footer-link" routerLink="/workflow">
             {{'how_it_works' | translate}}
-          </span>
-        <span class="footer-link">
+          </a>
+        <a class="footer-link" routerLink="/team">
             {{'team' | translate}}
-          </span>
-        <span class="footer-link">
+          </a>
+        <a class="footer-link">
             {{'services' | translate}}
-          </span>
-        <span class="footer-link">
+          </a>
+        <a class="footer-link">
             {{'cooperation_models_title' | translate}}
-          </span>
+          </a>
       </div>
     </div>
 

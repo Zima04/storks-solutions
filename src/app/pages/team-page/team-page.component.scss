@@ -1,0 +1,73 @@
+@import '../../../styles/colors';
+
+.team-page__description {
+  background-color: $grey;
+  padding: 100px 0;
+
+  .title {
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 58px;
+    color: $white;
+    padding-bottom: 50px;
+  }
+
+  .content {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: $white;
+  }
+}
+
+.team-page__members {
+  padding: 200px 0;
+
+  .header {
+    display: block;
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: $grey;
+    padding-bottom: 50px;
+  }
+
+  .members-container{
+    display: grid;
+    grid-row-gap: 40px;
+    grid-column-gap: 25px;
+
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+
+    .member-card {
+      display: flex;
+      flex-direction: column;
+
+      .image {
+        padding-bottom: 24px;
+        transition: 0.3s linear all;
+
+        &:hover{
+          cursor: pointer;
+          transform: scale(1.1);
+        }
+      }
+
+      .name {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        color: $grey;
+        padding-bottom: 10px;
+      }
+
+      .job-title {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        color: $grey;
+      }
+    }
+  }
+}

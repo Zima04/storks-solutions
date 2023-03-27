@@ -2,7 +2,7 @@
   <div class="container-xl d-flex flex-column">
     <span class="cooperation-container__header">{{'services' | translate}}</span>
     <span class="cooperation-container__description">{{'services_description' | translate}}</span>
-    <div class="row">
+    <div class="row" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
       <div class="col-6">
         <img src="assets/images/solo.png">
       </div>
@@ -15,7 +15,7 @@
           </span>
       </div>
     </div>
-    <div class="row">
+    <div class="row" [attr.data-aos]="'fade-left'" data-aos-duration="3000">
       <div class="col-6 cooperation-container__card">
           <span class="header">
             {{'dedicated_model_title' | translate}}
@@ -28,7 +28,7 @@
         <img src="assets/images/team-1.png">
       </div>
     </div>
-    <div class="row">
+    <div class="row" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
       <div class="col-6">
         <img src="assets/images/contact_image.png">
       </div>

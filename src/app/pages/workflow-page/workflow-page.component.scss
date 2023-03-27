@@ -1,0 +1,13 @@
+@import "src/styles/colors";
+
+.background {
+  background-color: #2e2e2e;
+}
+
+.step-icon{
+  color: $red
+}
+
+::ng-deep.p-timeline .p-timeline-event-connector{
+  background-color: #aaaaaa
+}

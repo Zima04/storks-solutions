@@ -1,15 +1,17 @@
 <div class="header-container container-xl d-flex align-items-center justify-content-between py-2">
   <div>
-    <img src="assets/logo.svg" alt="logo">
+    <a routerLink="/main">
+      <img src="assets/logo.svg" alt="logo">
+    </a>
   </div>
   <div>
-    <a class="header-link">
+    <a class="header-link" routerLink="/workflow">
       {{'how_it_works' | translate}}
     </a>
-    <a class="header-link">
+    <a class="header-link" routerLink="/team">
       {{'team' | translate}}
     </a>
-    <a class="header-link">
+    <a class="header-link" routerLink="/contacts">
       {{'contacts' | translate}}
     </a>
   </div>

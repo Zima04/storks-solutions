@@ -7,7 +7,6 @@ import {HttpClient} from "@angular/common/http";
 import {TranslateHttpLoader} from "@ngx-translate/http-loader";
 import {NgxTranslateModule} from "./translate/translate.module";
 import {BsDropdownModule} from "ngx-bootstrap/dropdown";
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatInputModule} from "@angular/material/input";
 import {FormsModule} from "@angular/forms";
 import { WelcomeScreenComponent } from './components/welcome-screen/welcome-screen.component';
@@ -21,6 +20,13 @@ import {TechnologyComponent} from "./components/technology/technology.component"
 import {ContactsComponent} from "./components/contacts/contacts.component";
 import {FooterComponent} from "./components/footer/footer.component";
 import { TeamComponent } from './components/team/team.component';
+import { WorkflowPageComponent } from './pages/workflow-page/workflow-page.component';
+import { OrganizationChartModule } from 'primeng/organizationchart';
+import { TimelineModule } from 'primeng/timeline';
+import { CardModule } from 'primeng/card';
+import { ChipModule } from 'primeng/chip';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import { ContactsPageComponent } from './pages/contacts-page/contacts-page.component';
 
 
 export function createTranslateLoader(http: HttpClient) {
@@ -40,7 +46,9 @@ export function createTranslateLoader(http: HttpClient) {
     WelcomeScreenComponent,
     MainPageComponent,
     TeamPageComponent,
-    TeamComponent
+    TeamComponent,
+    WorkflowPageComponent,
+    ContactsPageComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,6 +58,10 @@ export function createTranslateLoader(http: HttpClient) {
     MatInputModule,
     FormsModule,
     BrowserAnimationsModule,
+    OrganizationChartModule,
+    TimelineModule,
+    CardModule,
+    ChipModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

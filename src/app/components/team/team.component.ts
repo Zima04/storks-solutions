@@ -1,4 +1,5 @@
 import {ChangeDetectionStrategy, Component} from '@angular/core';
+import * as AOS from "aos";
 
 @Component({
   selector: 'team',
@@ -7,5 +8,6 @@ import {ChangeDetectionStrategy, Component} from '@angular/core';
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class TeamComponent {
-
+  ngOnInit() {
+  }
 }
