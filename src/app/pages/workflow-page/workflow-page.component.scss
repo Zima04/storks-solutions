@@ -2,12 +2,13 @@
 
 .background {
   background-color: #2e2e2e;
+  padding-top: 90px
 }
 
-.step-icon{
+.step-icon {
   color: $red
 }
 
-::ng-deep.p-timeline .p-timeline-event-connector{
+::ng-deep.p-timeline .p-timeline-event-connector {
   background-color: #aaaaaa
 }

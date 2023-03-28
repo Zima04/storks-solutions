@@ -1,33 +1,36 @@
-<div class="header-container container-xl d-flex align-items-center justify-content-between py-2">
-  <div>
-    <a routerLink="/main">
-      <img src="assets/logo.svg" alt="logo">
-    </a>
-  </div>
-  <div>
-    <a class="header-link" routerLink="/workflow">
-      {{'how_it_works' | translate}}
-    </a>
-    <a class="header-link" routerLink="/team">
-      {{'team' | translate}}
-    </a>
-    <a class="header-link" routerLink="/contacts">
-      {{'contacts' | translate}}
-    </a>
-  </div>
-
-  <div>
-    <div class="btn-group" dropdown>
-      <button id="button-autoclose1" dropdownToggle type="button" class="btn dropdown-toggle"
-              aria-controls="dropdown-autoclose1">
-        {{currentLang}} <span class="caret"></span>
-      </button>
-      <ul *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu">
-        <li *ngFor="let item of languageList">
-          <span class="dropdown-item" (click)="changeSiteLanguage(item.code)">{{item.label}}</span>
-        </li>
-      </ul>
+<div class="header-container" [ngClass]="{'test': isTest}">
+  <div class="container-xl d-flex align-items-center justify-content-between py-2">
+    <div>
+      <a routerLink="/main">
+        <img [src]="!isTest ? 'assets/white-logo.svg' : 'assets/logo.svg'" alt="logo">
+      </a>
     </div>
-  </div>
+    <div>
+      <a class="header-link" routerLink="/workflow">
+        {{'how_it_works' | translate}}
+      </a>
+      <a class="header-link" routerLink="/team">
+        {{'team' | translate}}
+      </a>
+      <a class="header-link" routerLink="/contacts">
+        {{'contacts' | translate}}
+      </a>
+    </div>
 
+    <div>
+      <div class="btn-group" dropdown>
+        <button id="button-autoclose1" dropdownToggle type="button" class="btn dropdown-toggle" [ngClass]="{'white': !isTest}"
+                aria-controls="dropdown-autoclose1">
+          {{currentLang}} <span class="caret"></span>
+        </button>
+        <ul *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu">
+          <li *ngFor="let item of languageList">
+            <span class="dropdown-item" (click)="changeSiteLanguage(item.code)">{{item.label}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </div>
+

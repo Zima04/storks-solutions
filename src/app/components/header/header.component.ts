@@ -1,4 +1,4 @@
-import {ChangeDetectionStrategy, Component} from '@angular/core';
+import {ChangeDetectionStrategy, Component, HostListener} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
 
 @Component({
@@ -8,6 +8,18 @@ import {TranslateService} from "@ngx-translate/core";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class HeaderComponent {
+
+  isTest = false;
+
+  @HostListener('window:scroll', ['$event'])
+  doSomething(event: any) {
+
+    // console.log("Scroll Event", window.pageYOffset);
+    this.isTest = window.pageYOffset !== 0;
+    console.log(this.isTest);
+  }
+
+
   siteLanguage = 'English';
   public currentLang: string = 'EN';
 
