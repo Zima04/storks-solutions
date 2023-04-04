@@ -1,6 +1,7 @@
 import {Component} from '@angular/core';
 
 import * as AOS from 'aos';
+import {TranslateService} from "@ngx-translate/core";
 
 @Component({
   selector: 'app-workflow-page',
@@ -10,120 +11,120 @@ import * as AOS from 'aos';
 export class WorkflowPageComponent {
   events: any[];
 
-  constructor() {
+  constructor(public translateService: TranslateService) {
     this.events = [
       {
-        title: 'Requirement elicitation',
+        title: 'requirement_elicitation_title',
         status: '01',
         isLeft: true,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/case_icon.svg',
         color: '#9C27B0',
-        description: 'We collect all functional requirements and provide rough estimates, costs, and scope.'
+        description: 'requirement_elicitation_desc'
       },
       {
-        title: 'Contract negotiation',
+        title: 'contract_negotiation_title',
         status: '02',
         isLeft: false,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/contract_icon.svg',
         color: '#673AB7',
-        description: 'We discuss all the contract terms, setting the cooperation and pricing models.'
+        description: 'contract_negotiation_desc'
       },
       {
-        title: 'Design and prototyping',
+        title: 'design_prototyping_title',
         status: '03',
         isLeft: true,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/brush_icon.svg',
         color: '#FF9800',
-        description: 'The team works on the concept of the solution and provides a visual representation.'
+        description: 'design_prototyping_desc'
       },
       {
-        title: 'Architecture building',
+        title: 'architecture_building_title',
         status: '04',
         isLeft: false,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/architecture_icon.svg',
         color: '#607D8B',
-        description: 'The team offers an optimal architectural solution that will be easily expanded in the future.'
+        description: 'architecture_building_desc'
       },
       {
-        title: 'Iteration grooming',
+        title: 'iteration_grooming_title',
         status: '05',
         isLeft: true,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/grooming_icon.svg',
         color: '#607D8B',
-        description: 'The team participates in the process of discussions, explanations, clarifications of a future feature or product'
+        description: 'iteration_grooming_desc'
       },
       {
-        title: 'Iteration planning',
+        title: 'iteration_planning_title',
         status: '06',
         isLeft: false,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/planning_icon.svg',
         color: '#607D8B',
-        description: 'The team makes a division of stories and tasks for optimal iterations for continuous implementation and delivery.'
+        description: 'iteration_planning_desc'
       },
       {
-        title: 'Daily meeting',
+        title: 'daily_meeting_title',
         status: '07',
         isLeft: true,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/daily_icon.svg',
         color: '#607D8B',
-        description: 'Team members report progress daily. In case of questions, they receive a quick answer and continue development.'
+        description: 'daily_meeting_desc'
       },
       {
-        title: 'Coding',
+        title: 'coding_title',
         status: '08',
         isLeft: false,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/code_icon.svg',
         color: '#607D8B',
-        description: 'Developers implement software code according to existing requirements.'
+        description: 'coding_desc'
       },
       {
-        title: 'Unit testing',
+        title: 'unit_testing_title',
         status: '09',
         isLeft: true,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/unit-test_icon.svg',
         color: '#607D8B',
-        description: 'Developers cover new functionality with tests to ensure the high quality of the product.'
+        description: 'unit_testing_desc'
       },
       {
-        title: 'Quality assurance',
+        title: 'quality_assurance_title',
         status: '10',
         isLeft: false,
         isSprintAction: true,
         icon: 'assets/icons/how_it_works/qa_icon.svg',
         color: '#607D8B',
-        description: 'QA engineers conduct checks for correctness, absence of errors, compliance with the requirements of the developed features.'
+        description: 'quality_assurance_desc'
       },
       {
-        title: 'Solution deployment',
+        title: 'solution_deployment_title',
         status: '11',
         isLeft: true,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/deployment_icon.svg',
         color: '#607D8B',
-        description: 'DevOps engineers implement continuous integration, deployment and delivery processes.Each subsequent iteration of deployment and delivery will be automated.'
+        description: 'solution_deployment_desc'
       },
       {
-        title: 'Maintenance and support',
+        title: 'maintenance_support_title',
         status: '12',
         isLeft: false,
         isSprintAction: false,
         icon: 'assets/icons/how_it_works/support_icon.svg',
         color: '#607D8B',
-        description: 'Our team guarantees the quality of the developed product and is ready to support it in the future.'
+        description: 'maintenance_support_desc'
       },
     ];
   }
 
-  ngOnInit(){
+  ngOnInit() {
     AOS.refresh();
   }
 }

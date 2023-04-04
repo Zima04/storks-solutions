@@ -2,6 +2,7 @@ key,en,ru,bel
 en,EN,EN,EN
 ru,RU,RU,RU
 bel,BLR,BLR,BLR
+english,"English",""
 how_it_works,How it works, Как это работает, Як гэта працуе
 team,Team,Команда,Каманда
 contacts,Contacts,Контакты,Кантакты
@@ -70,3 +71,29 @@ projects_completed,"Projects completed","Завершенных проектов
 footer_rules,"© 2023 Storks Solutions. All Rights Reserved.","© 2023 Storks Solutions. Все права защищены.","© 2023 Storks Solutions. Усе правы ахоўваюцца."
 footer_address,"Stefana Okrzei 1A/10P, 03-715 Warsaw, Poland","Stefana Okrzei 1A/10P, 03-715 Варшава, Польша","Stefana Okrzei 1A/10P, 03-715 Варшава, Польшча"
 specialists,"Specialists","Специалисты","Спецыялісты"
+
+sprint_action,"Sprint action","Действия спринта","Дзеяннe спрынту"
+requirement_elicitation_title,"Requirement elicitation","Выяснение требований","Высвятленне патрабаванняў"
+requirement_elicitation_desc,"We collect all functional requirements and provide rough estimates, costs, and scope.","Мы собираем все функциональные требования и предоставляем приблизительную смету, стоимость и объем работ.","Мы збіраем усе функцыянальныя патрабаванні і даем прыблізную каштарыс, кошт і аб'ём работ."
+contract_negotiation_title,"Contract negotiation","Переговоры по контракту","Перамовы па кантракце"
+contract_negotiation_desc,"We discuss all the contract terms, setting the cooperation and pricing models.","Мы обсуждаем все условия контракта, устанавливаем модели сотрудничества и ценообразования.","Мы абмяркоўваем усе ўмовы кантракту, усталёўваем мадэлі супрацоўніцтва і цэнаўтварэння."
+design_prototyping_title,"Design and prototyping","Дизайн и создание прототипов","Дызайн і стварэнне прататыпаў"
+design_prototyping_desc,"The team works on the concept of the solution and provides a visual representation.","Команда работает над концепцией решения и создает визуальное представление.","Каманда працуе над канцэпцыяй рашэння і стварае візуальнае ўяўленне."
+architecture_building_title,"Architecture building","Создание архитектуры","Стварэнне архітэктуры"
+architecture_building_desc,"The team offers an optimal architectural solution that will be easily expanded in the future.","Команда предлагает оптимальное архитектурное решение, которое в будущем можно будет легко расширить.","Каманда прапануе аптымальнае архітэктурнае рашэнне, якое ў будучыні можна будзе лёгка пашырыць."
+iteration_grooming_title,"Iteration grooming","Анализ итераций","Аналіз ітэрацый"
+iteration_grooming_desc,"The team participates in the process of discussions, explanations, clarifications of a future feature or product","Команда участвует в процессе обсуждения, разъяснения, уточнения будущей функции или продукта","Каманда ўдзельнічае ў працэсе абмеркавання, тлумачэнні, удакладнення будучай функцыі або прадукту"
+iteration_planning_title,"Iteration planning","Планирование итераций","Планаванне ітэрацый"
+iteration_planning_desc,"The team makes a division of stories and tasks for optimal iterations for continuous implementation and delivery.","Команда производит разделение историй и задач на оптимальные итерации для непрерывной реализации и доставки.","Каманда вырабляе падзел гісторый і задач на аптымальныя ітэрацыі для бесперапыннай рэалізацыі і дастаўкі."
+daily_meeting_title,"Daily meeting","Ежедневные митинги","Штодзённыя мітынгі"
+daily_meeting_desc,"Team members report progress daily. In case of questions, they receive a quick answer and continue development.","Члены команды ежедневно отчитываются о проделанной работе. В случае возникновения вопросов они получают быстрый ответ и продолжают разработку.","Члены каманды штодня даюць справаздачу аб праведзенай працы. У выпадку ўзнікнення пытанняў яны атрымліваюць хуткі адказ і працягваюць распрацоўку."
+coding_title,"Coding","Написание кода","Напiсанне коду"
+coding_desc,"Developers implement software code according to existing requirements.","Разработчики реализуют программный код в соответствии с существующими требованиями.","Распрацоўшчыкі рэалізуюць праграмны код у адпаведнасці з існуючымі патрабаваннямі."
+unit_testing_title,"Unit testing","Модульное тестирование","Модульнае тэставанне"
+unit_testing_desc,"Developers cover new functionality with tests to ensure the high quality of the product.","Разработчики покрывают новую функциональность тестами, чтобы обеспечить высокое качество продукта.","Распрацоўшчыкі пакрываюць новую функцыянальнасць тэстамі, каб забяспечыць высокую якасць прадукту."
+quality_assurance_title,"Quality assurance","Обеспечение качества","Забеспячэнне якасці"
+quality_assurance_desc,"QA engineers conduct checks for correctness, absence of errors, compliance with the requirements of the developed features.","Инженеры QA проводят проверки на корректность, отсутствие ошибок, соответствие требованиям разработанных функций.","Інжынеры QA праводзяць праверкі на карэктнасць, адсутнасць памылак, адпаведнасць патрабаванням распрацаваных функцый."
+solution_deployment_title,"Solution deployment","Развертывание решений","Разгортванне рашэнняў"
+solution_deployment_desc,"DevOps engineers implement continuous integration, deployment and delivery processes.Each subsequent iteration of deployment and delivery will be automated.","Инженеры DevOps внедряют процессы непрерывной интеграции, развертывания и доставки. Каждая последующая итерация развертывания и доставки будет автоматизирована.","Інжынеры DevOps ўкараняюць працэсы бесперапыннай інтэграцыі, разгортвання і дастаўкі. Кожная наступная ітэрацыя разгортвання і дастаўкі будзе аўтаматызавана."
+maintenance_support_title,"Maintenance and support","Обслуживание и поддержка","Абслугоўванне і падтрымка"
+maintenance_support_desc,"Our team guarantees the quality of the developed product and is ready to support it in the future.","Наша команда гарантирует качество разработанного продукта и готова поддерживать его в будущем.","Наша каманда гарантуе якасць распрацаванага прадукту і гатовая падтрымліваць яго ў будучыні."

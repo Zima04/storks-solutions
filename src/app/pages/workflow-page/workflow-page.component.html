@@ -10,9 +10,9 @@
         </ng-template>
         <ng-template pTemplate="content" let-event>
           <div [attr.data-aos]="event?.isLeft ? 'fade-left' : 'fade-right'" data-aos-duration="3000">
-            <p-card [header]="event.status" [subheader]="event.title" >
-              <p-chip *ngIf="event.isSprintAction" label="Sprint action"></p-chip>
-              <p>{{event.description}}</p>
+            <p-card [header]="event.status" [subheader]="event.title | translate" >
+              <p-chip *ngIf="event.isSprintAction" label="{{'sprint_action' | translate}}"></p-chip>
+              <p>{{event.description | translate}}</p>
             </p-card>
           </div>
         </ng-template>
