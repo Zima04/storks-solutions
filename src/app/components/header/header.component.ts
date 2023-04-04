@@ -1,5 +1,6 @@
-import {ChangeDetectionStrategy, Component, HostListener} from '@angular/core';
+import {ChangeDetectionStrategy, ChangeDetectorRef, Component, HostListener} from '@angular/core';
 import {TranslateService} from "@ngx-translate/core";
+import {BreakpointObserver, BreakpointState} from "@angular/cdk/layout";
 
 @Component({
   selector: 'header',
@@ -9,16 +10,13 @@ import {TranslateService} from "@ngx-translate/core";
 })
 export class HeaderComponent {
 
-  isTest = false;
+  public isTop: boolean = false;
+  public isTablet: boolean = false;
 
   @HostListener('window:scroll', ['$event'])
-  doSomething(event: any) {
-
-    // console.log("Scroll Event", window.pageYOffset);
-    this.isTest = window.pageYOffset !== 0;
-    console.log(this.isTest);
+  changeHeaderBackground(event: any) {
+    this.isTop = window.pageYOffset !== 0;
   }
-
 
   siteLanguage = 'English';
   public currentLang: string = 'EN';
@@ -29,7 +27,28 @@ export class HeaderComponent {
     {code: 'bel', label: 'Belarus'},
   ];
 
-  constructor(private translate: TranslateService) {
+  public links: Array<{ url: string, title: string }> = [
+    {
+      url: '/workflow',
+      title: 'how_it_works'
+    },
+    {
+      url: '/team',
+      title: 'team'
+    },
+    {
+      url: '/contacts',
+      title: 'contacts'
+    }
+  ]
+
+  constructor(private translate: TranslateService, private breakpointObserver: BreakpointObserver, private cdr: ChangeDetectorRef) {
+    this.breakpointObserver.observe([
+      "(max-width: 768px)"
+    ]).subscribe((result: BreakpointState) => {
+      this.isTablet = !result.matches;
+      this.cdr.markForCheck();
+    });
   }
 
   public changeSiteLanguage(localeCode: string): void {

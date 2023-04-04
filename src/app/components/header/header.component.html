@@ -1,25 +1,19 @@
-<div class="header-container" [ngClass]="{'test': isTest}">
-  <div class="container-xl d-flex align-items-center justify-content-between py-2">
+<div class="header-container" [ngClass]="{'header__top-position': isTop}">
+  <div class="container-xl d-flex align-items-center justify-content-between py-2" *ngIf="isTablet">
     <div>
       <a routerLink="/main">
-        <img [src]="!isTest ? 'assets/white-logo.svg' : 'assets/logo.svg'" alt="logo">
+        <img [src]="!isTop ? 'assets/white-logo.svg' : 'assets/logo.svg'" alt="logo">
       </a>
     </div>
     <div>
-      <a class="header-link" routerLink="/workflow">
-        {{'how_it_works' | translate}}
-      </a>
-      <a class="header-link" routerLink="/team">
-        {{'team' | translate}}
-      </a>
-      <a class="header-link" routerLink="/contacts">
-        {{'contacts' | translate}}
+      <a class="header-link" [routerLink]="link.url" *ngFor="let link of links">
+        {{link.title | translate}}
       </a>
     </div>
-
     <div>
       <div class="btn-group" dropdown>
-        <button id="button-autoclose1" dropdownToggle type="button" class="btn dropdown-toggle" [ngClass]="{'white': !isTest}"
+        <button id="button-autoclose1" dropdownToggle type="button" class="btn dropdown-toggle"
+                [ngClass]="{'white': !isTop}"
                 aria-controls="dropdown-autoclose1">
           {{currentLang}} <span class="caret"></span>
         </button>
@@ -30,7 +24,43 @@
         </ul>
       </div>
     </div>
-
+  </div>
+  <div class="container-xl d-flex align-items-center justify-content-between py-2" *ngIf="!isTablet">
+    <div>
+      <div class="btn-group" dropdown>
+        <button id="button-autoclose2" dropdownToggle type="button" class="btn"
+                [ngClass]="{'white': !isTop}"
+                aria-controls="dropdown-autoclose2">
+          <i class="pi pi-align-justify"></i>
+        </button>
+        <ul *dropdownMenu class="dropdown-menu dropdown-menu-left" role="menu">
+          <li *ngFor="let link of links">
+            <a class="dropdown-item" [routerLink]="link.url" >
+              {{link.title | translate}}
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <a routerLink="/main">
+        <img [src]="!isTop ? 'assets/white-logo.svg' : 'assets/logo.svg'" alt="logo">
+      </a>
+    </div>
+    <div>
+      <div class="btn-group" dropdown>
+        <button id="button-autoclose3" dropdownToggle type="button" class="btn dropdown-toggle"
+                [ngClass]="{'white': !isTop}"
+                aria-controls="dropdown-autoclose3">
+          {{currentLang}} <span class="caret"></span>
+        </button>
+        <ul *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu">
+          <li *ngFor="let item of languageList">
+            <span class="dropdown-item" (click)="changeSiteLanguage(item.code)">{{item.label}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>
 

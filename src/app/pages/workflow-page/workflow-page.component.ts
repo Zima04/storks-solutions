@@ -8,64 +8,6 @@ import * as AOS from 'aos';
   styleUrls: ['./workflow-page.component.scss'],
 })
 export class WorkflowPageComponent {
-  // data: TreeNode[] = [
-  //   {
-  //     label: 'Requirement elicitation',
-  //     expanded: true,
-  //     children: [
-  //       {
-  //         label: 'Contract negotiation',
-  //         expanded: true,
-  //         children: [
-  //           {
-  //             label: 'Design and prototyping',
-  //             expanded: true,
-  //             children: [
-  //               {
-  //                 label: 'Architecture building',
-  //                 expanded: true,
-  //                 children:[
-  //                   {
-  //                     label: 'Agile Sprint',
-  //                     expanded: true,
-  //                     children:[
-  //                       {
-  //                         label: 'Iteration grooming',
-  //                         children:[],
-  //                       },
-  //                       {
-  //                         label: 'Iteration Planning',
-  //                         children:[],
-  //                       },
-  //                       {
-  //                         label: 'Daily meetings',
-  //                         children:[],
-  //                       },
-  //                       {
-  //                         label: 'Coding',
-  //                         children:[],
-  //                       },
-  //                       {
-  //                         label: 'Unit testing',
-  //                         children:[],
-  //                       },
-  //                       {
-  //                         label: 'Quality assurance',
-  //                         children:[],
-  //                       },
-  //
-  //                     ]
-  //                   }
-  //
-  //                 ]
-  //               },
-  //             ]
-  //           }
-  //         ]
-  //       },
-  //     ]
-  //   }
-  // ];
   events: any[];
 
   constructor() {
@@ -75,7 +17,7 @@ export class WorkflowPageComponent {
         status: '01',
         isLeft: true,
         isSprintAction: false,
-        icon: 'pi pi-shopping-cart',
+        icon: 'assets/icons/how_it_works/case_icon.svg',
         color: '#9C27B0',
         description: 'We collect all functional requirements and provide rough estimates, costs, and scope.'
       },
@@ -84,7 +26,7 @@ export class WorkflowPageComponent {
         status: '02',
         isLeft: false,
         isSprintAction: false,
-        icon: 'pi pi-cog',
+        icon: 'assets/icons/how_it_works/contract_icon.svg',
         color: '#673AB7',
         description: 'We discuss all the contract terms, setting the cooperation and pricing models.'
       },
@@ -93,7 +35,7 @@ export class WorkflowPageComponent {
         status: '03',
         isLeft: true,
         isSprintAction: false,
-        icon: 'pi pi-shopping-cart',
+        icon: 'assets/icons/how_it_works/brush_icon.svg',
         color: '#FF9800',
         description: 'The team works on the concept of the solution and provides a visual representation.'
       },
@@ -102,7 +44,7 @@ export class WorkflowPageComponent {
         status: '04',
         isLeft: false,
         isSprintAction: false,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/architecture_icon.svg',
         color: '#607D8B',
         description: 'The team offers an optimal architectural solution that will be easily expanded in the future.'
       },
@@ -111,7 +53,7 @@ export class WorkflowPageComponent {
         status: '05',
         isLeft: true,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/grooming_icon.svg',
         color: '#607D8B',
         description: 'The team participates in the process of discussions, explanations, clarifications of a future feature or product'
       },
@@ -120,7 +62,7 @@ export class WorkflowPageComponent {
         status: '06',
         isLeft: false,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/planning_icon.svg',
         color: '#607D8B',
         description: 'The team makes a division of stories and tasks for optimal iterations for continuous implementation and delivery.'
       },
@@ -129,7 +71,7 @@ export class WorkflowPageComponent {
         status: '07',
         isLeft: true,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/daily_icon.svg',
         color: '#607D8B',
         description: 'Team members report progress daily. In case of questions, they receive a quick answer and continue development.'
       },
@@ -138,7 +80,7 @@ export class WorkflowPageComponent {
         status: '08',
         isLeft: false,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/code_icon.svg',
         color: '#607D8B',
         description: 'Developers implement software code according to existing requirements.'
       },
@@ -147,7 +89,7 @@ export class WorkflowPageComponent {
         status: '09',
         isLeft: true,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/unit-test_icon.svg',
         color: '#607D8B',
         description: 'Developers cover new functionality with tests to ensure the high quality of the product.'
       },
@@ -156,7 +98,7 @@ export class WorkflowPageComponent {
         status: '10',
         isLeft: false,
         isSprintAction: true,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/qa_icon.svg',
         color: '#607D8B',
         description: 'QA engineers conduct checks for correctness, absence of errors, compliance with the requirements of the developed features.'
       },
@@ -165,7 +107,7 @@ export class WorkflowPageComponent {
         status: '11',
         isLeft: true,
         isSprintAction: false,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/deployment_icon.svg',
         color: '#607D8B',
         description: 'DevOps engineers implement continuous integration, deployment and delivery processes.Each subsequent iteration of deployment and delivery will be automated.'
       },
@@ -174,7 +116,7 @@ export class WorkflowPageComponent {
         status: '12',
         isLeft: false,
         isSprintAction: false,
-        icon: 'pi pi-check',
+        icon: 'assets/icons/how_it_works/support_icon.svg',
         color: '#607D8B',
         description: 'Our team guarantees the quality of the developed product and is ready to support it in the future.'
       },

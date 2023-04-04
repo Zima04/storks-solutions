@@ -4,8 +4,8 @@
     <div class="container-xl py-4">
       <p-timeline [value]="events" align="alternate" styleClass="customized-timeline">
         <ng-template pTemplate="marker" let-event>
-            <span class="step-icon shadow-2">
-                <i [ngClass]="event.icon"></i>
+            <span class="shadow-2">
+              <img class="step-icon" src="{{event.icon}}">
             </span>
         </ng-template>
         <ng-template pTemplate="content" let-event>

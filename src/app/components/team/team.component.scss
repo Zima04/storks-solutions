@@ -1,7 +1,6 @@
 @import 'src/styles/colors';
 
 .team-container {
-  background-image: url("/assets/team.jpg");
   background-size: cover;
   height: 800px;
   position: relative;
@@ -10,24 +9,44 @@
   animation: animatedBackground 120s linear infinite;
 
   @keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -10000px 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -10000px 0;
+    }
   }
   @-moz-keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -10000px 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -10000px 0;
+    }
   }
   @-webkit-keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -10000px 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -10000px 0;
+    }
   }
   @-ms-keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -10000px 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -10000px 0;
+    }
   }
   @-o-keyframes animatedBackground {
-    0% { background-position: 0 0; }
-    100% { background-position: -10000px 0; }
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -10000px 0;
+    }
   }
 
   .shadow-block {
@@ -95,4 +114,10 @@
     }
   }
 
+}
+
+@media (max-width: 968px) {
+  .shadow-block {
+    width: 100% !important;
+  }
 }

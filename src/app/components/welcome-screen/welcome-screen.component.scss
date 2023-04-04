@@ -74,3 +74,24 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    align-items: center;
+
+    .welcome-page__title{
+      text-align: center;
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    .welcome-page__subtitle{
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+

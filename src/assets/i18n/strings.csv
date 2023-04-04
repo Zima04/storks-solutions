@@ -1,14 +1,10 @@
 key,en,ru,bel
-how_it_works,How it works, Как это раотает, Як гэта працуе
-team,Team,Команда,Каманда
-contacts,Contacts,Контакты,Кантакты
 en,EN,EN,EN
 ru,RU,RU,RU
 bel,BLR,BLR,BLR
-
-
-
-
+how_it_works,How it works, Как это работает, Як гэта працуе
+team,Team,Команда,Каманда
+contacts,Contacts,Контакты,Кантакты
 services,Services,Услуги,Паслугі
 services_description,"The main priority for our team is to provide quality solutions for the implementation of your ideas. Check out the list of services provided by Storks Solutions team.","Основным приоритетом для нашей команды является предоставление качественных решений для реализации ваших идей. Ознакомьтесь со списком услуг, предоставляемых командой Storks Solutions.","Галоўным прыярытэтам нашай каманды з'яўляецца прадастаўленне якасных рашэнняў для рэалізацыі вашых ідэй.Азнаёмцеся са спісам паслуг, якія прадстаўляе каманда Storks Solutions."
 web_development_title,"Web development","Веб разработка","Вэб-распрацоўка"
@@ -73,5 +69,4 @@ embrace_technologies,"Embrace technologies","Охвачено технологи
 projects_completed,"Projects completed","Завершенных проектов","Праекты завершаны"
 footer_rules,"© 2023 Storks Solutions. All Rights Reserved.","© 2023 Storks Solutions. Все права защищены.","© 2023 Storks Solutions. Усе правы ахоўваюцца."
 footer_address,"Stefana Okrzei 1A/10P, 03-715 Warsaw, Poland","Stefana Okrzei 1A/10P, 03-715 Варшава, Польша","Stefana Okrzei 1A/10P, 03-715 Варшава, Польшча"
-specialists,"Specialists","Специалисты","Спецыялісты
-"
+specialists,"Specialists","Специалисты","Спецыялісты"

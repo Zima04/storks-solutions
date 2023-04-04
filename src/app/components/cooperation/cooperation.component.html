@@ -2,11 +2,11 @@
   <div class="container-xl d-flex flex-column">
     <span class="cooperation-container__header">{{'services' | translate}}</span>
     <span class="cooperation-container__description">{{'services_description' | translate}}</span>
-    <div class="row" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
-      <div class="col-6">
-        <img src="assets/images/solo.png">
+    <div class="d-flex flex-column flex-lg-row py-2 py-lg-5" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
+      <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start">
+        <img class="cooperation-container__image" src="assets/images/solo.svg">
       </div>
-      <div class="col-6 cooperation-container__card">
+      <div class="col-lg-6 col-12 cooperation-container__card">
           <span class="header">
             {{'staff_model_title' | translate}}
           </span>
@@ -15,8 +15,8 @@
           </span>
       </div>
     </div>
-    <div class="row" [attr.data-aos]="'fade-left'" data-aos-duration="3000">
-      <div class="col-6 cooperation-container__card">
+    <div class="d-flex flex-column-reverse flex-lg-row py-2 py-lg-5" [attr.data-aos]="'fade-left'" data-aos-duration="3000">
+      <div class="col-lg-6 col-12 cooperation-container__card">
           <span class="header">
             {{'dedicated_model_title' | translate}}
           </span>
@@ -24,15 +24,15 @@
             {{'dedicated_model_desc' | translate}}
           </span>
       </div>
-      <div class="col-6">
-        <img src="assets/images/team-1.png">
+      <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-end">
+        <img class="cooperation-container__image" src="assets/images/team.svg">
       </div>
     </div>
-    <div class="row" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
-      <div class="col-6">
-        <img src="assets/images/contact_image.png">
+    <div class="d-flex flex-column flex-lg-row py-2 py-lg-5" [attr.data-aos]="'fade-right'" data-aos-duration="3000">
+      <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start">
+        <img class="cooperation-container__image" src="assets/images/team-2.svg">
       </div>
-      <div class="col-6 cooperation-container__card">
+      <div class="col-lg-6 col-12 cooperation-container__card">
         <span class="header">
             {{'project_model_title' | translate}}
         </span>

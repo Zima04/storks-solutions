@@ -21,7 +21,7 @@
 }
 
 .team-page__members {
-  padding: 200px 0;
+  padding: 200px 1.5rem;
 
   .header {
     display: block;
@@ -32,7 +32,7 @@
     padding-bottom: 50px;
   }
 
-  .members-container{
+  .members-container {
     display: grid;
     grid-row-gap: 40px;
     grid-column-gap: 25px;
@@ -48,7 +48,7 @@
         padding-bottom: 24px;
         transition: 0.3s linear all;
 
-        &:hover{
+        &:hover {
           cursor: pointer;
           transform: scale(1.1);
         }
@@ -71,3 +71,18 @@
     }
   }
 }
+
+
+@media (max-width: 768px) {
+  .members-container {
+    display: flex;
+    flex-direction: column;
+
+    .member-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+

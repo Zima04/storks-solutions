@@ -1,7 +1,7 @@
 @import 'src/styles/colors';
 
 .cooperation-container {
-  padding: 100px 0;
+  padding: 100px 1.5rem;
   display: flex;
   flex-direction: column;
   background-color: $grey;
@@ -20,8 +20,12 @@
     line-height: 28px;
     color: $white;
     max-width: 600px;
-    min-width: 400px;
     padding-bottom: 50px;
+  }
+
+  &__image {
+    max-width: 450px;
+    padding-bottom: 30px
   }
 
   &__card {
@@ -42,6 +46,37 @@
       font-weight: 400;
       font-size: 22px;
       line-height: 28px;
+    }
+  }
+}
+
+
+@media (max-width: 962px) {
+  .cooperation-container {
+    &__image {
+      width: 400px;
+      padding-bottom: 40px;
+    }
+
+    &__card {
+      .header{
+        font-size: 26px;
+        line-height: 30px;
+      }
+
+      .description {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .cooperation-container {
+    &__image {
+      width: 300px;
+      padding-bottom: 40px;
     }
   }
 }
