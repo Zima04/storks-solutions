@@ -59,7 +59,7 @@
     }
 
     &__card {
-      .header{
+      .header {
         font-size: 26px;
         line-height: 30px;
       }
@@ -77,6 +77,16 @@
     &__image {
       width: 300px;
       padding-bottom: 40px;
+    }
+
+    &__card {
+      .header {
+        padding-bottom: 20px
+      }
+
+      .description {
+        padding-bottom: 50px
+      }
     }
   }
 }
