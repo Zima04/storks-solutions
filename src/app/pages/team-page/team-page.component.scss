@@ -47,6 +47,9 @@
       .image {
         padding-bottom: 24px;
         transition: 0.3s linear all;
+        width: 310px;
+        height: 334px;
+        object-fit: cover;
 
         &:hover {
           cursor: pointer;

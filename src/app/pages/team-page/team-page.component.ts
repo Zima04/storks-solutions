@@ -11,61 +11,61 @@ export class TeamPageComponent {
 
   public teamMembers: Array<{ name: string, title: string,url?: string }> = [
     {
-      name: 'Marina Ushko',
-      title: 'Ceo&Founder',
-      url: 'assets/images/person-1.png'
+      name: 'Vladislav Zinchuk',
+      title: 'Developer',
+      url: 'assets/images/team/vladislav_zinchuk.png'
     },
     {
-      name: 'Alekcandra  Monara',
-      title: 'CTO',
-      url: 'assets/images/person-2.png'
+      name: 'Alexey Zinchuk',
+      title: 'Developer',
+      url: 'assets/images/team/alexey_zinchuk.jpg'
     },
     {
-      name: 'Vladislav  Togba',
-      title: 'FE lead',
-      url: 'assets/images/person-3.png'
+      name: 'Konstantin Trush',
+      title: 'Developer',
+      url: 'assets/images/team/konstantin_trush.jpg'
     }, {
-      name: 'Jacon Smith',
-      title: 'BE lead',
-      url: 'assets/images/person-4.png'
+      name: 'Dmitriy Danilov',
+      title: 'FE Lead',
+      url: 'assets/images/team/dmitriy_danilov2.jpg'
     },
     {
-      name: 'Marina Ushko',
+      name: 'Maksim Aderikha',
+      title: 'BE Lead',
+      url: 'assets/images/team/maxim_adzeriha.jpg'
+    },
+    {
+      name: 'Mikhail Chirich',
+      title: 'Full-stack Developer',
+      url: 'assets/images/team/mihail_chirich.jpg'
+    },
+    {
+      name: 'Alexandr Kulinkovich',
+      title: 'Full-stack Developer',
+      url: 'assets/images/team/alexandr_kulinkovich.jpg'
+    },
+    {
+      name: 'Maria Tsar',
+      title: 'UI/UX Lead',
+      url: 'assets/images/team/maria_tsar.jpg'
+    },
+    {
+      name: 'Edhar Strelchanka',
       title: 'Developer',
-      url: 'assets/images/person-1.png'
+      url: 'assets/images/team/edgar_strelchenko.jpg'
     },
     {
-      name: 'Alekcandra  Monara',
+      name: 'Andrei Zhuk',
+      title: 'FE Developer',
+      url: 'assets/images/team/andrei_zhuk.jpg'
+    },
+    {
+      name: 'Victoria Danilova',
       title: 'Developer',
-      url: 'assets/images/person-2.png'
+      url: 'assets/images/viktoria_danilova.jpg'
     },
     {
-      name: 'Vladislav  Togba',
-      title: 'Developer',
-      url: 'assets/images/person-4.png'
-    },
-    {
-      name: 'Jacon Smith',
-      title: 'Developer',
-      url: 'assets/images/person-3.png'
-    },
-    {
-      name: 'Marina Ushko',
-      title: 'Developer',
-      url: 'assets/images/person-1.png'
-    },
-    {
-      name: 'Alekcandra  Monara',
-      title: 'Developer',
-      url: 'assets/images/person-2.png'
-    },
-    {
-      name: 'Vladislav  Togba',
-      title: 'Developer',
-      url: 'assets/images/person-4.png'
-    },
-    {
-      name: 'Jacon Smith',
+      name: 'Andrei Gronsky',
       title: 'Developer',
       url: 'assets/images/person-3.png'
     },
